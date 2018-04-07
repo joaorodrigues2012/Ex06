@@ -1,0 +1,80 @@
+*{font-size:20pt;}
+
+.h3, h3{text-align: center; margin-top: 5%;
+font-family: 'Hi Melody', cursive;
+font-size:60px;
+border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-style: dashed dotted;
+    border-color: #000 #090 #900 #009;
+    border-radius:10px;
+    background: rgb(1,165,254);}
+
+p{text-align: center; margin-top: 5%;
+font-family: 'Hi Melody', cursive;
+font-size:60px;
+border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-style: dashed dotted;
+    border-radius:10px;
+    background: rgb(1,165,254);}
+
+form{text-align: center; 
+background: rgb(41,191,254);
+margin-left:30%;
+margin-right:30%;
+padding-bottom:10px;
+border-radius:10px;}
+
+body{background:url(img_pais.jpg);}
+
+input{border-radius:10px;}
+
+.enviar{display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	}
+	
+.limpar{display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	}
+
+.button:hover {background-color: #004080}
+
+ .enviar:active {
+  background-color: #004080;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.limpar:active {
+  background-color: #ff0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.enviar:hover{background-color: #004080;}
+.limpar:hover{background-color: #ff0000;}
